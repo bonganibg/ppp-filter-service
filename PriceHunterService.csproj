@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="DnsClient.dll" />
+    <None Remove="Microsoft.Extensions.Logging.Abstractions.dll" />
+    <None Remove="MongoDB.Bson.dll" />
+    <None Remove="MongoDB.Driver.Core.dll" />
+    <None Remove="MongoDB.Driver.dll" />
+    <None Remove="MongoDB.Libmongocrypt.dll" />
+    <None Remove="PriceHunterFilter.1.0.0.nupkg" />
+    <None Remove="PriceHunterFilter.dll" />
+    <None Remove="SharpCompress.dll" />
+    <None Remove="Snappier.dll" />
+    <None Remove="ZstdSharp.dll" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DnsClient">
+      <HintPath>DnsClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+      <HintPath>Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Bson">
+      <HintPath>MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver">
+      <HintPath>MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver.Core">
+      <HintPath>MongoDB.Driver.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Libmongocrypt">
+      <HintPath>MongoDB.Libmongocrypt.dll</HintPath>
+    </Reference>
+    <Reference Include="PriceHunterFilter">
+      <HintPath>PriceHunterFilter.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpCompress">
+      <HintPath>SharpCompress.dll</HintPath>
+    </Reference>
+    <Reference Include="Snappier">
+      <HintPath>Snappier.dll</HintPath>
+    </Reference>
+    <Reference Include="ZstdSharp">
+      <HintPath>ZstdSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
